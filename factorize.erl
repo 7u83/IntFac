@@ -50,11 +50,9 @@ fac_check(I, _I1, _I2, P, Bits) ->
 fac_check(I, I1, I2, Bits) ->
     fac_check(I, I1, I2, I1 * I2, Bits).
 
-fac_run(_I, _I1, _I2, 3333, _X) ->  
-    exit(baff);    
+
 fac_run(I, _I1, _I2, _N, 4) ->
     [I];
-
 fac_run(I, I1, I2, N, B) ->
     B1 = getbit(B, 0),
     B2 = getbit(B, 1),
