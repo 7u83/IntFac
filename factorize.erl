@@ -2,10 +2,7 @@
 -module(factorize).
 
 -export([
-	 getbit/2,
-	 setbit/3,
-	 bitcmp/3,
-	 fac_check/4,
+	 factorize/1,
 	 main/1
 	]).
 
